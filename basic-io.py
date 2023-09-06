@@ -52,3 +52,17 @@ intage = int(input("PLease enter your age: "))
 print("Hello %s %s. You are %d years old" %(first,last,intage))
 floatage = float(input("PLease enter your age: "))
 print("Hello %s %s. You are %.2f years old" %(first,last,floatage))
+
+
+# The split function can be used to get multiple values from standard
+# if a seperator isn't given to the function, then a white space is used.
+fname, lname = input("Enter your first and last name seperated by a space: ").split()
+print(fname,lname)
+
+# A separator, like a comma, may be provided. 
+fname, lname,tn = input("Enter your first and last name and telephone number seperated by a comma: ").split(",")
+print("Hello %s %s. Your phone number is %s." %(fname,lname,tn))
+
+#We can take in variable number of inputs at a time.
+x = [int(x) for x in input("ENter multiple numbers seperated by a space: ").split()]
+print("Numbers are: ", x)

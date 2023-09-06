@@ -117,13 +117,13 @@ num = 150
 if (num >= 1 and num <= 100):
     print('num is between 1 and 100')
 else:
-    print(print('num is not between 1 and 100'))
+    print('num is not between 1 and 100')
 
 # This if-else decision structure tests if num is not between 1 and 100.
 if (num < 1 or num >100):
     print('num is not between 1 and 100')
 else:
-    print(print('num is between 1 and 100'))
+    print('num is between 1 and 100')
 
 foundIt = False 
 
@@ -132,3 +132,4 @@ if (not foundIt):
     print('foundIt is false.')
 else:
     print("foundIt is True")
+
