@@ -111,3 +111,15 @@ print(names, ' - pop function')
 first = names.pop(0)
 print(first)
 print(names,' - pop function with index')
+
+
+#My Code 
+i = 0
+print(nums)
+while (i < len(nums)):
+    if nums[i] <6:
+        print(nums[i])
+    i += 1
+print()
+    
+    

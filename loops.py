@@ -70,6 +70,19 @@ while (i>0):
 print("Blastoff!!!")
 
 
+#My Code
+#Variable
+i = 10 
+#While Loop
+while (i>0):
+    #If function to check each number is a odd number
+    if (i%2!=0):
+        print(i)
+    i = i -1
+print()
+
+
+
 
 
 

@@ -66,3 +66,11 @@ print("Hello %s %s. Your phone number is %s." %(fname,lname,tn))
 #We can take in variable number of inputs at a time.
 x = [int(x) for x in input("ENter multiple numbers seperated by a space: ").split()]
 print("Numbers are: ", x)
+
+#My Code For the Practice
+
+#Ask the user for input
+first, last, age = input("Enter your name and age seperated by a space: ").split()
+
+#Print Out the Information in String Module
+print("Hello %s %s. Your age is %s." %(first,last,age))

@@ -133,3 +133,20 @@ if (not foundIt):
 else:
     print("foundIt is True")
 
+# My Code
+
+#Grade
+grade = "C"
+
+if grade == "A":
+    print("Super Work!")
+elif grade == 'B':
+    print("Good Job!")
+elif grade == 'C':
+    print("You made it.")
+elif grade == 'D' and 'F': 
+    print("Oh, Dear....")
+else:
+    print("Invalid grade.")
+
+
